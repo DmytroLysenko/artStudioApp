@@ -3,7 +3,7 @@ import axios from "axios";
 axios.defaults.baseURL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5000/api/"
-    : "https://afternoon-wave-09782.herokuapp.com/api/";
+    : "https://protected-fortress-93164.herokuapp.com/api/";
     
 
 export const loginUser = (credentials) => {
