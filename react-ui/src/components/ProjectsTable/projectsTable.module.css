@@ -1,0 +1,40 @@
+.container {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 20px;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.list {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.projectItem {
+  margin-bottom: 20px;
+}
+
+.projectItem:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.projectItem__title {
+  font-weight: 700;
+}
+
+.addBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

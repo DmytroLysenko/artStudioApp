@@ -1,0 +1,77 @@
+.form {
+  text-align: center;
+
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.projectName {
+  margin-bottom: 10px;
+}
+
+.characteristic {
+  margin-bottom: 20px;
+}
+
+.list {
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px var(--shadowColor);
+
+  margin-right: 7px;
+  margin-bottom: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemActive {
+  composes: item;
+  box-shadow: 1px 1px 5px 1px var(--shadowActiveColor);
+}
+
+.noData {
+  margin-bottom: 20px;
+}
+
+.controls {
+  padding: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+}
+
+.btnSubmit {
+  composes: btn;
+  margin-right: 30px;
+}
+
+.btnReset {
+  composes: btn;
+}
+
+.addNewTagContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newTag {
+  margin-right: 10px;
+}

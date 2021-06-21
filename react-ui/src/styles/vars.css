@@ -1,0 +1,20 @@
+:root {
+  --greenColor: #24cca7;
+  --redColor: #ff6596;
+  --whiteColor: #ffffff;
+  --blueColor: #4a56e2;
+  --pinkColor: #ff6596;
+  --shadowActiveColor: #ff000080;
+  --shadowColor: #00000080;
+  --border: #e7e5f2;
+  --primeFont: "Circe", sans-serif, serif;
+  --titleFont: "Poppins", sans-serif;
+
+  /* media rules */
+  --min1024: screen and (min-width: 1024px);
+  --min768: screen and (min-width: 768px);
+  --mx767: screen and (max-width: 767px);
+
+  /* transition */
+  --trans: all 0.25s ease-in-out;
+}

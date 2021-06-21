@@ -1,0 +1,10 @@
+.container {
+  padding: 10px;
+}
+
+.upContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}

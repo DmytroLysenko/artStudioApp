@@ -1,0 +1,39 @@
+.form {
+  text-align: center;
+
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.name {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.controls {
+  padding: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+}
+
+.btnSubmit {
+  composes: btn;
+  margin-right: 30px;
+}
+
+.btnReset {
+  composes: btn;
+}

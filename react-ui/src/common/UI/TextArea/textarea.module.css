@@ -1,0 +1,7 @@
+.base {
+  width: 60%;
+  height: 100px;
+  resize: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}

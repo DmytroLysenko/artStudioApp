@@ -1,0 +1,55 @@
+.container {
+}
+
+.toggle {
+  text-decoration: underline;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.toggle::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 5px;
+
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../assets/icons/power_settings_new_black_24dp.svg");
+}
+
+.toggleActive {
+  composes: toggle;
+  margin-bottom: 20px;
+}
+
+.toggleInactive {
+  composes: toggle;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.onAirBtn {
+  composes: btn;
+  background-color: lightgreen;
+}
+
+.offAirBtn {
+  composes: btn;
+  background-color: lightcoral;
+}

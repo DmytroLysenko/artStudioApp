@@ -1,0 +1,44 @@
+.form {
+  text-align: center;
+
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.projectName {
+  margin-bottom: 10px;
+}
+
+.characteristic {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+  resize: none;
+  width: 100%;
+  height: 200px;
+}
+
+.controls {
+  padding: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+}
+
+.btnSubmit {
+  composes: btn;
+  margin-right: 30px;
+}
+
+.btnReset {
+  composes: btn;
+}

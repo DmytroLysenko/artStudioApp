@@ -1,0 +1,16 @@
+.list {
+  min-width: 70%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  margin-right: 5px;
+}
+
+.item:nth-last-of-type(1) {
+  margin-right: 0;
+}

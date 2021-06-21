@@ -1,0 +1,44 @@
+.list {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.item:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.itemTitle {
+  font-weight: bold;
+}
+
+.linkTo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  text-decoration: underline;
+}
+
+.linkTo::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 5px;
+
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../assets/icons/info_black_24dp.svg");
+}

@@ -1,0 +1,60 @@
+.base {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logout {
+  composes: base;
+  background-image: url("../../../assets/icons/logout_black_24dp.svg");
+}
+
+.login {
+  composes: base;
+  background-image: url("../../../assets/icons/login_black_24dp.svg");
+}
+
+.delete {
+  composes: base;
+  background-image: url("../../../assets/icons/delete_outline_black_24dp.svg");
+}
+
+.add {
+  composes: base;
+  background-image: url("../../../assets/icons/add_circle_outline_black_24dp.svg");
+}
+
+.remove {
+  composes: base;
+  background-image: url("../../../assets/icons/remove_circle_outline_black_24dp.svg");
+}
+
+.submit {
+  composes: base;
+  background-image: url("../../../assets/icons/published_with_changes_black_24dp.svg");
+}
+
+.reset {
+  composes: base;
+  background-image: url("../../../assets/icons/restore_black_24dp.svg");
+}
+
+.edit {
+  composes: base;
+  background-image: url("../../../assets/icons/mode_edit_black_24dp.svg");
+}
+
+.save {
+  composes: base;
+  background-image: url("../../../assets/icons/save_black_24dp.svg");
+}
+
+.button {
+  composes: base;
+  background-image: url("../../../assets/icons/touch_app_black_24dp.svg");
+}
